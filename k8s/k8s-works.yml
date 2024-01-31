@@ -1,0 +1,7 @@
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  template:
+    spec:
+      initContainers:
+        - image: legitgames/apm-agent-java:1.44.0
